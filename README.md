@@ -56,7 +56,9 @@ Wykorzystane pliki:
 ```
 .
 ├── data/
-│   ├── raw/                           # Dane z Kaggle
+│   ├── raw/                           # Surowe dane z Kaggle
+│   │   ├── energy_dataset.csv
+│   │   └── weather_features.csv
 │   └── processed/                     # Dane scalone i przetworzone
 │       ├── energy_and_weather_data.csv
 │       ├── energy_and_weather_data_for_model.csv
@@ -74,8 +76,9 @@ Wykorzystane pliki:
 │
 ├── plots/
 │   ├── prediction_7_days.png
+│   ├── prediction_30_days.png
 │   ├── prediction_30_days_with_temperature.png
-│   └── ... (inne wykresy)
+│   └── ...                            # inne wykresy
 │
 └── README.md
 ```
