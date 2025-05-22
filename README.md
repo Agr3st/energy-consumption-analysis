@@ -1,4 +1,4 @@
-# 📊 Energy Consumption Forecasting in Spain (2015–2018)
+# 📊 Energy Consumption Analysis and Forecasting in Spain (2015–2018)
 
 Celem projektu jest analiza zużycia energii elektrycznej oraz zbudowanie modelu umożliwiającego krótkoterminową i długoterminową prognozę zapotrzebowania energetycznego w Hiszpanii na podstawie danych z lat 2015–2018. Projekt uwzględnia wpływ różnych czynników zewnętrznych, takich jak warunki pogodowe i cechy czasowe, a także przedstawia wyniki w formie wizualizacji umożliwiających interpretację trendów i zależności.
 
