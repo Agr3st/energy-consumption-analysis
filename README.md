@@ -78,6 +78,7 @@ Wykorzystane pliki:
 │   ├── prediction_7_days.png
 │   ├── prediction_30_days.png
 │   ├── prediction_30_days_with_temperature.png
+│   ├── prediction_7_30_days_with_temperature.png
 │   └── ...                            # inne wykresy
 │
 └── README.md
