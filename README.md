@@ -21,6 +21,7 @@ Wykorzystane pliki:
 - Uśrednienie cech pogodowych dla całego kraju
 - Scalenie zbiorów i interpolacja braków
 - Formatowanie danych i zapis do `energy_and_weather_data.csv`
+
 ⚠️ Uwaga: dane pogodowe zostały uśrednione dla 5 największych miast, co nie odzwierciedla w pełni lokalnych warunków atmosferycznych w całym kraju. W rezultacie wpływ pogody na zużycie energii może być w modelu częściowo wygładzony lub niedoszacowany.
 
 ### 2. Eksploracja danych (`eda.ipynb`)
@@ -52,28 +53,29 @@ Wykorzystane pliki:
 ---
 
 ## 🗂️ Struktura katalogów
+```
 .
 ├── data/
-│ ├── raw/ # Dane z Kaggle
-│ └── processed/ # Dane scalone i przetworzone
-│ ├── energy_and_weather_data.csv
-│ ├── energy_and_weather_data_for_model.csv
-│ ├── pred_7_days.csv
-│ └── pred_30_days.csv
+│   ├── raw/                           # Dane z Kaggle
+│   └── processed/                     # Dane scalone i przetworzone
+│       ├── energy_and_weather_data.csv
+│       ├── energy_and_weather_data_for_model.csv
+│       ├── pred_7_days.csv
+│       └── pred_30_days.csv
 │
 ├── model/
-│ └── model.pkl
+│   └── model.pkl                      # Zapisany model
 │
 ├── notebooks/
-│ ├── data_processing.ipynb
-│ ├── eda.ipynb
-│ ├── model.ipynb
-│ └── prediction.ipynb
+│   ├── data_processing.ipynb          # Przetwarzanie danych
+│   ├── eda.ipynb                      # Eksploracja danych
+│   ├── model.ipynb                    # Trening i walidacja modelu
+│   └── prediction.ipynb               # Predykcja i wizualizacje
 │
 ├── plots/
-│ └── prediction_7_days.png
-│ └── prediction_30_days_with_temperature.png
-│ └── ... (inne wykresy .png)
+│   ├── prediction_7_days.png
+│   ├── prediction_30_days_with_temperature.png
+│   └── ... (inne wykresy)
 │
 └── README.md
-
+```
